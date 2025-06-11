@@ -580,8 +580,8 @@ async function switchToHolesky() {
                             symbol: 'ETH',
                             decimals: 18,
                         },
-                        rpcUrls: ['https://ethereum-holesky.publicnode.com'],
-                        blockExplorerUrls: ['https://holesky.etherscan.io'],
+                        rpcUrls: ['https://api.zan.top/node/v1/eth/holesky/1749d6d8577f47b28145635a808c79d9'],
+                        blockExplorerUrls: ['https://api.zan.top/node/v1/eth/holesky/1749d6d8577f47b28145635a808c79d9'],
                     }],
                 });
                 showMessage('เพิ่ม Holesky network สำเร็จ', 'success');
